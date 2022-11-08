@@ -4,7 +4,39 @@
     margin: 0 auto;
 }
 
-#social_icons {
+#social_icons0 {
+    max-width: 40px;
+    text-align: center;
+    width: 80%;
+    margin: 0% auto;
+    padding: 10px 3px;
+}
+
+#social_icons1 {
+    max-width: 40px;
+    text-align: center;
+    width: 80%;
+    margin: 0% auto;
+    padding: 10px 3px;
+}
+
+#social_icons2 {
+    max-width: 40px;
+    text-align: center;
+    width: 80%;
+    margin: 0% auto;
+    padding: 10px 3px;
+}
+
+#social_icons3 {
+    max-width: 40px;
+    text-align: center;
+    width: 80%;
+    margin: 0% auto;
+    padding: 10px 3px;
+}
+
+#social_icons4 {
     max-width: 40px;
     text-align: center;
     width: 80%;
@@ -36,7 +68,7 @@
     overflow: hidden;
   }
 
-#navigation_links {
+#navigation_links0 {
     float: left;
     color: #545454;
     font-weight: bold;
@@ -46,6 +78,46 @@
     font-size: 18px;
   }
 
+#navigation_links1 {
+    float: left;
+    color: #545454;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+#navigation_links2 {
+    float: left;
+    color: #545454;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+#navigation_links3 {
+    float: left;
+    color: #545454;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+#navigation_links4 {
+    float: left;
+    color: #545454;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+ 
 
 body {
     background-color: #dfded9;
