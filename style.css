@@ -18,10 +18,10 @@
 
 #image_default {
     float: left;
-    margin: 30px;
-    max-width: 300px;
-    max-height:400px;
-    width:80%;
+    margin: 0px;
+    max-width: 1457px;
+    max-height:300px;
+    width:120%;
     height:80%;
 }
 
@@ -53,7 +53,7 @@
     max-width: 1000px;
     width: 80%;
     margin: 2% auto auto auto;
-    padding: 50px 50px 50px 400px;
+    padding: 20px 20px 20px 200px;
     color: #545454;
     font-size: 20px;
     line-height: 1;
@@ -118,14 +118,12 @@ footer {
     width: 100%; 
     height: 0rem;
     padding: 0px;
-
 }
-
 
 
 .title1 {
     color: #545454;
-    text-align: center;
+    text-align: left;
     margin: 2% auto;
     max-width: 1000px;
     width: 80%;
@@ -138,4 +136,4 @@ footer {
     max-width: 1000px;
     width: 80%;
     padding: 0px 250px 5px 0px;
-}
+
