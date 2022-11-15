@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicious Cycles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id="logo" src="assets/logo.png"  alt="Vicious Cycles Logo">
+    <nav id="navigation">
+        <a class="navigation_links" target="_self" href="index.html">About Us</a>
+        <a class="navigation_links" target="_self" href="#">Bikes</a>
+        <a class="navigation_links" target="_self" href="#">Acessories</a>
+        <a class="navigation_links" target="_self" href="bike_rental.html">Bike Rental</a>
+        <a class="navigation_links" target="_self" href="#">Contact</a>
+
+    </nav>
+    <br>
+    <main>
+        <section class="outer_form">
+    <h1 class="titleform">Bike Rental</h1>
+    <p>
+        <form class="inner_form" method="POST" action="about:blank">
+<! action points to a supposed file that would process the submission-->
+        <label for="customername">Name:</label><br>
+        <input class="inner_form_fields" type="text" id="customername" name="customername"><br>
+        <label for="phone">Contact:</label><br>
+        <input class="inner_form_fields" type="tel" id="phone" name="phone"><br>
+        <label for="email">Email:</label><br>
+        <input class="inner_form_fields" type="email" id="email" name="email"><br>
+        <p>Reservation Start:<br><input class="inner_form_fields" type="datetime-local"></p>
+        <p>Reservation End:<br><input class="inner_form_fields" type="datetime-local"></p>
+        <p>Choose Your Bike:</p>
+        <input  type="radio" id="bikechoice1" name="bikechoice" value="Bike1">City Bike<br>
+        <input  type="radio" id="bikechoice2" name="bikechoice" value="Bike2">Mountain Bike<br>
+        <input  type="radio" id="bikechoice3" name="bikechoice" value="Bike3">Racing Bike<br>
+        <p>Choose your Accessories:</p>
+        <input type="checkbox" id="helmet" name="helmet" value="helmet">
+        <label for="helmet"> Helmet</label><br>
+        <input type="checkbox" id="saddlepremium" name="saddlepremium" value="saddlepremium">
+        <label for="saddlepremium"> Premium Saddle</label><br>
+        <input type="checkbox" id="tirepump" name="tirepump" value="tirepump">
+        <label for="tirepump"> Tire Pump</label><br><br>
+
+        <input class="button" type="submit" value="Place Reservation"/>
+
+        </form>
+        </p>
+        <br>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <p>©Vicious Cycles - All rights reserved </p>
+        <p>
+            <a href="https://www.facebook.com"><img src="assets/social_media/icon_facebook.png" class="social_icons" alt="facebook icon"></a>
+            <a href="https://www.instagram.com"><img src="assets/social_media/icon_instagram.png" class="social_icons" alt="instagram icon"></a>
+            <a href="https://www.snapchat.com"><img src="assets/social_media/icon_snapchat.png" class="social_icons" alt="snapchat icon"></a>
+            <a href="https://www.twitter.com"><img src="assets/social_media/icon_twitter.png"  class="social_icons" alt="twitter icon"></a>
+        </p>
+
+        </hr>
+
+    </footer>
+
+</body>
+</html>
