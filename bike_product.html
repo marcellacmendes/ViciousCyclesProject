@@ -7,30 +7,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-
     <img id="logo" src="assets/logo.png"  alt="Vicious Cycles Logo">
-    <nav id="navigation">
+    <nav class="navigation">
         <a class="navigation_links" target="_self" href="index.html">About Us</a>
         <a class="navigation_links" target="_self" href="bike_product.html">Bikes</a>
         <a class="navigation_links" target="_self" href="bike_acessories.html">Acessories</a>
+        <a class="navigation_links" target="_self" href="bike_maintenance_plans.html">Maintenance Plans</a>
         <a class="navigation_links" target="_self" href="bike_rental.html">Bike Rental</a>
+        <a class="navigation_links" target="_self" href="bike_trails.html">Bike Trails</a>
+        <a class="navigation_links" target="_self" href="bike_social_responsibility.html">Social Responsibility</a>
         <a class="navigation_links" target="_self" href="contact.html">Contact</a>
+
 
     </nav>
   
     <main>
         <section>
-            <div class="container">
-                <div class="box">
+            <div class="bike_product_container">
+                <div class="bike_product_box">
                   <img src="assets/content_images/city_bike.jpg">
                   <span>City Bike</span>
                 </div>
-                <div class="box">
+                <div class="bike_product_box">
                   <img src="assets/content_images/mountain_bike.jpg">
                   <span>Mountain Bike</span>
                 </div>
-                <div class="box">
+                <div class="bike_product_box">
                   <img src="assets/content_images/racing_bike.jpg">
                   <span>Racing Bike</span>
                 </div>
@@ -42,41 +44,47 @@
             <form class="inner_form" method="POST" action="about:blank">
     <! action points to a supposed file that would process the submission-->
             <label for="customername">Name:</label><br>
-            <input class="inner_form_fields" type="text" id="customername" name="customername"><br>
+            <input class="inner_form_fields" type="text"  name="customername"><br>
             <label for="phone">Contact:</label><br>
-            <input class="inner_form_fields" type="tel" id="phone" name="phone"><br>
+            <input class="inner_form_fields" type="tel"  name="phone"><br>
             <label for="email">Email:</label><br>
-            <input class="inner_form_fields" type="email" id="email" name="email"><br>
+            <input class="inner_form_fields" type="email" name="email"><br>
             <p>Choose Your Bike:</p>
-            <input  type="radio" id="bikechoice1" name="bikechoice" value="Bike1">City Bike<br>
-            <input  type="radio" id="bikechoice2" name="bikechoice" value="Bike2">Mountain Bike<br>
-            <input  type="radio" id="bikechoice3" name="bikechoice" value="Bike3">Racing Bike<br>
-            <p>Choose your Bike Color:</p>
-            <input type="checkbox" id="greencolor" name="greencolor" value="greencolor">
-            <label for="greencolor"> Green Color</label><br>
-            <input type="checkbox" id="redcolor" name="redcolor" value="redcolor">
-            <label for="redcolor"> Red Color</label><br>
-            <input type="checkbox" id="bluecolor" name="bluecolor" value="bluecolor">
-            <label for="bluecolor"> Blue Color</label><br>
-            <input type="checkbox" id="blackcolor" name="blackcolor" value="blackcolor">
-            <label for="blackcolor"> Black Color</label><br><br>
+            <input  type="radio" name="bikechoice" value="Bike1">City Bike<br>
+            <input  type="radio" name="bikechoice" value="Bike2">Mountain Bike<br>
+            <input  type="radio" name="bikechoice" value="Bike3">Racing Bike<br>
+            <p>Choose Your Maintenance Plan:</p>
+            <input  type="radio" name="maintenance_plan" value="basic_plan">Basic<br>
+            <input  type="radio" name="maintenance_plan" value="premium_plan">Premium<br>
+            <input  type="radio" name="maintenance_plan" value="platinum_plan">Platinum<br>
+            <p>Choose your Extras:</p>
+            <input type="checkbox" name="keychain" value="keychain">
+            <label for="keychain">Vicious Cycles Keychain</label><br>
+            <input type="checkbox" name="basket" value="basket">
+            <label for="basket">Basket</label><br>
+            <input type="checkbox" name="flat_tire_kit" value="flat_tire_kit">
+            <label for="flat_tire_kit">Flat Tire Kit</label><br>
+            <input type="checkbox" name="vicious_cycles_decal" value="vicious_cycles_decal">
+            <label for="vicious_cycles_decal"> Vicious Cycles Decal</label><br><br>
     
             <input class="button" type="submit" value="Place Order"/>
     
             </form>
             </p>
             <br>
+
         </section>
-       
+        
          
     </main>
     <footer>
         <hr>
-        <p>©Vicious Cycles - All rights reserved </p><br>
-        <p>Get in Touch</p>
-        <p>2010 Cornestone Dr Cary, NC 25897</p>
-        <p>999 888-2211</p>
-        <p>vc@viciouscycles.com</p>
+        <p>©Vicious Cycles - All rights reserved<br>
+        Get in Touch<br>
+        2010 Cornestone Dr Cary, NC 25897<br>
+        999 888-2211<br>
+        vc@viciouscycles.com<br>
+        </p>
         <p>
             <a href="https://www.facebook.com"><img src="assets/social_media/icon_facebook.png" class="social_icons" alt="facebook icon"></a>
             <a href="https://www.instagram.com"><img src="assets/social_media/icon_instagram.png" class="social_icons" alt="instagram icon"></a>
