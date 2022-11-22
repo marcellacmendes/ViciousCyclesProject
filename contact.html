@@ -9,61 +9,67 @@
 <body>
     <img id="logo" src="assets/logo.png"  alt="Vicious Cycles Logo">
     <nav class="navigation">
+        <!-- This corresponds to the navigation bar for the entire site-->
         <a class="navigation_links" target="_self" href="index.html">About Us</a>
         <a class="navigation_links" target="_self" href="bike_product.html">Bikes</a>
-        <a class="navigation_links" target="_self" href="bike_acessories.html">Acessories</a>
+        <a class="navigation_links" target="_self" href="bike_acessories.html">Accessories</a>
         <a class="navigation_links" target="_self" href="bike_maintenance_plans.html">Maintenance Plans</a>
         <a class="navigation_links" target="_self" href="bike_rental.html">Bike Rental</a>
-        <a class="navigation_links" target="_self" href="bike_trails.html">Bike Trails</a>
         <a class="navigation_links" target="_self" href="bike_social_responsibility.html">Social Responsibility</a>
         <a class="navigation_links" target="_self" href="contact.html">Contact</a>
 
 
     </nav>
-    <br>
+  
+    
     <main>
-        <section class="outer_form">
-    <h1 class="titleform">Get in Touch</h1>
-    <p>
-        <form class="inner_form" method="POST" action="about:blank">
-<! action points to a supposed file that would process the submission-->
-        <label for="customername">Name:</label><br>
-        <input class="inner_form_fields" type="text" id="customername" name="customername"><br>
-        <label for="phone">Contact:</label><br>
-        <input class="inner_form_fields" type="tel" id="phone" name="phone"><br>
-        <label for="email">Email:</label><br>
-        <input class="inner_form_fields" type="email" id="email" name="email"><br>
-
-        <p>Send us a message. </p>
-
-        <label for="text">We'd love to hear from you!</label><br><br>
-        <textarea id="text" name="text"></textarea><br><br>
-
-        <input class="button1" type="submit" value="Send"/>
-
-        </form>
-    </p>
+        <img class="form_img" src="assets/content_images/contact.jpg" alt="Image of a cord 'contact' phone"><br>
         <br>
-        </section>
-    </main>
-    <footer>
-        <hr>
-        <p>©Vicious Cycles - All rights reserved<br>
-        Get in Touch<br>
-        2010 Cornestone Dr Cary, NC 25897<br>
-        999 888-2211<br>
-        vc@viciouscycles.com<br>
-        </p>
-        <p>
-            <a href="https://www.facebook.com"><img src="assets/social_media/icon_facebook.png" class="social_icons" alt="facebook icon"></a>
-            <a href="https://www.instagram.com"><img src="assets/social_media/icon_instagram.png" class="social_icons" alt="instagram icon"></a>
-            <a href="https://www.snapchat.com"><img src="assets/social_media/icon_snapchat.png" class="social_icons" alt="snapchat icon"></a>
-            <a href="https://www.twitter.com"><img src="assets/social_media/icon_twitter.png"  class="social_icons" alt="twitter icon"></a>
-        </p>
+        <section class="outer_form">
+            <h1 class="titleform">Contact us below</h1>
+            <p>
+                <form class="inner_form" method="POST" action="about:blank">
+    <!-- action points to a supposed file that would process the submission-->
+                <label for="customername">Name:</label><br>
+                <input class="inner_form_fields" type="text"  name="customername"><br>
+                <label for="phone">Contact:</label><br>
+                <input class="inner_form_fields" type="tel"  name="phone"><br>
+                <label for="email">Email:</label><br>
+                <input class="inner_form_fields" type="email" name="email"><br>
+                <label for="message">Your Message</label>
+                <br>
 
-        </hr>
+                <textarea id="message" name="message" rows="4" cols="50"> Please enter your message here...
+                </textarea>
+                
+                <input class="button" type="submit" value="Send"/>
         
-    </footer>
-        
-</body>
-</html>
+                </form>
+                </p>
+                <br>
+                
+            </section>
+            
+             
+        </main>
+        <footer>
+            <hr>
+            <p>©Vicious Cycles - All rights reserved<br>
+            Get in Touch<br>
+            2010 Cornestone Dr Cary, NC 25897<br>
+            999 888-2211<br>
+            vc@viciouscycles.com<br>
+            </p>
+            <p>
+                <a href="https://www.facebook.com"><img src="assets/social_media/icon_facebook.png" class="social_icons" alt="facebook icon"></a>
+                <a href="https://www.instagram.com"><img src="assets/social_media/icon_instagram.png" class="social_icons" alt="instagram icon"></a>
+                <a href="https://www.snapchat.com"><img src="assets/social_media/icon_snapchat.png" class="social_icons" alt="snapchat icon"></a>
+                <a href="https://www.twitter.com"><img src="assets/social_media/icon_twitter.png"  class="social_icons" alt="twitter icon"></a>
+            </p>
+    
+            
+            
+        </footer>
+            
+    </body>
+    </html>
